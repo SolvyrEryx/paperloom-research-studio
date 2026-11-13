@@ -22,4 +22,8 @@ Date: 2026-11-13 · Windows · Python 3.11.9
 
 **Illustrations:** the custom cover and GIF are original explanatory graphics. The GIF is not a recorded live agent run. The built-in sample paper and its numbers are synthetic teaching material.
 
-**GitHub CI:** configured for Linux/Python 3.11. Its remote execution status must be checked after publication; a local test result does not establish that GitHub Actions has passed.
+**GitHub CI:** the [first published source run](https://github.com/SolvyrEryx/paperloom-research-studio/actions/runs/43436696643) completed successfully on Linux/Python 3.11. Installation from the lock file, dependency consistency, all application tests and repository hygiene passed. The README includes the live workflow-status badge; use it to inspect later revisions.
+
+## Public repository
+
+[SolvyrEryx/paperloom-research-studio](https://github.com/SolvyrEryx/paperloom-research-studio) is public and GitHub recognises the MIT licence. Browser inspection confirmed the rendered README, original cover, actual app screenshot and animated workflow load correctly. The standalone repository begins with a new root commit and excludes the upstream code/history, recordings, runtime paper context, environments and API credentials.

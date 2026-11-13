@@ -10,6 +10,9 @@
 
 A calm, source-grounded workspace that turns a research PDF into a conversation, a presentation, and a practice session.
 
+[![Application checks](https://github.com/SolvyrEryx/paperloom-research-studio/actions/workflows/checks.yml/badge.svg)](https://github.com/SolvyrEryx/paperloom-research-studio/actions/workflows/checks.yml)
+[![Licence: MIT](https://img.shields.io/badge/licence-MIT-b76448?style=flat-square)](LICENSE)
+
 [Get started](#get-started) · [Explore the workflow](#one-paper-four-ways-forward) · [College demo](docs/COLLEGE_DEMO.md) · [Validation](VALIDATION.md) · [MIT licence](LICENSE)
 
 Python 3.11 · Streamlit · LangChain LCEL · Chroma · Groq · PowerPoint
@@ -52,6 +55,11 @@ This animation illustrates the architecture. It is **not a recording of live mod
 
 **You need:** Python 3.11, a modern browser, and internet for installation. No GPU, paid hosting, or cloud vector database is required.
 
+```bash
+git clone https://github.com/SolvyrEryx/paperloom-research-studio.git
+cd paperloom-research-studio
+```
+
 ### Windows
 
 Open PowerShell inside the project folder:
@@ -72,7 +80,7 @@ python3 -m venv .venv
 .venv/bin/python -m streamlit run app.py
 ```
 
-The lock file records the exact dependency versions used in local validation. `requirements.txt` provides the supported version ranges for maintainers. Windows/Python 3.11 has been tested; the GitHub workflow targets Linux/Python 3.11.
+The lock file records the exact dependency versions used in validation. `requirements.txt` provides the supported version ranges for maintainers. Windows/Python 3.11 was tested locally, and the published source passed GitHub Actions on Linux/Python 3.11.
 
 ### Your first two minutes
 
