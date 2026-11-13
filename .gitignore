@@ -1,0 +1,32 @@
+# environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+.pytest_cache/
+.chroma/
+output/
+*.log
+venv310/
+
+# python cache
+__pycache__/
+*.pyc
+
+# vector/db artifacts
+*.faiss
+*.pkl
+
+# uploads / data
+data/uploads/
+
+# IDE
+.vscode/
+
+results.json
+paper_context.json
+*.wav
+data/practice_results/
+.coverage
+htmlcov/
